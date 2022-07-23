@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{ 
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 25px;
+    margin-bottom: 50px;
+}
+.nav a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.nav .logo{
+    padding-top: 9px;
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: cursive;
+}
+.headsec{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10em;
+    padding-bottom: 80px;
+}
+.heading{
+    max-width: 500px;
+    text-align: left;
+}
+.heading .title{
+    text-align: left;
+    margin-bottom: 0;
+    padding: 0;
+}
+.heading .h-text{
+    margin: 0;
+}
+.h_signup{
+    background-color:  #3882f6;;
+    color: #f9faf8;
+    border: none;
+    padding:12px 24px;
+    border-radius: 8px ;
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.head-img{
+  max-width: 600px;
+   max-height: 500px;
+    border: none;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 0;}
+
+ .headsec{
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        flex:1;
+        }
+ .main_sec1 .sec1_title{
+        margin: 50px;
+        color: #1f2937;
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+.image_container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.image_container img{
+    max-width: 300px;
+    max-height:300px;
+    border: none;
+    border-radius: 8px;
+}
+.imgandinfo p{
+
+width: 200px;}
+
+.sectwo{
+    background-color: #e5e5eb;
+    margin: 0;
+    padding-top: 5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sectwo p{
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    width: 400px;
+    color: #1f2937;
+    margin: 0;
+    opacity: 0.5;
+    text-align:justify ;
+    
+}
+.sectwo span{
+    font-weight: bold;
+    padding:22px;
+    padding-left: 22em;
+}
+.secthree
+{
+    display: flex;
+   justify-content: center; 
+   margin: 6em;
+}
+
+.signup {
+     display: flex;
+     flex: 1;
+     gap: 5em;
+     justify-content: space-around;
+     text-align: justify;
+     align-items: center;
+     background-color: #3882f6;
+     color: #e5e7eb;
+     max-width: 900px;
+     padding: 30px;
+     border-radius: 8px;
+     font-size: 18px;
+}
+.signup_btn button{
+    background-color: transparent;
+    color: #f9faf8;
+    border:2px solid #f9faf8;
+    padding: 6px 2em ;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.signup_title span{
+    font-size: 24px;
+    font-weight:bold ;
+
+}
+.signup_title {
+
+    font-size: 20px;
+}
+.footer{
+    background-color: #1f2937;
+    padding: 30px;
+    color: #f9faf8;
+    font-size: 16px;
+}
